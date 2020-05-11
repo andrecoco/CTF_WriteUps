@@ -68,8 +68,13 @@ PS: The printer starts drawing on the bottom left of the letter.
 
 ### SAF
 On the video we can see that the first three letters are SAF.
+S-
 ![S](Images/Letters/S.jpg)
+
+A-
 ![A](Images/Letters/A(1).jpg)
+
+F-
 ![F](Images/Letters/F.jpg)
 
 We can use their spectogram to help identifying others letters.
