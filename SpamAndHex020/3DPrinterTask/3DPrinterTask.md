@@ -18,7 +18,7 @@ The first thing we had to do was find out which font was used.
 After some(a lot of) research on the internet, we found a similar font, and we assumed the printer was only using the outline of the letters.
 https://www.1001fonts.com/freaks-of-nature-font.html
 
-![Font](Images/font.jpg)
+![Font](Images/font.png)
 
 We counted how many traces were needed to draw each letter/number (only the outline), and got the table below.
 ```
@@ -71,50 +71,62 @@ On the video we can see that the first three letters are SAF.
 ![S](Images/Letters/S.jpg)
 ![A](Images/Letters/A(1).jpg)
 ![F](Images/Letters/F.jpg)
+
 We can use their spectogram to help identifying others letters.
 
 ### {
 ![{](Images/Letters/oBracket.jpg)
+
 This one has 16 traces, but the size of them don't match any letter from that font, so i assumed it was the '{', because the flag may be in the format SAF{...}
 
 ### A
 ![A](Images/Letters/A(2).jpg)
+
 This one has 12 traces, and is very similar to the 'A' we got.
 
 ### I
 ![I](Images/Letters/I.jpg)
+
 This one has only 4 traces, and by the size of them, its a rectangle, so has to be an 'I'.
 
 ### R
 ![R](Images/Letters/R.jpg)
+
 This one has 14 traces, and we can see that the last one is a big one, so it matches the outline of the 'R'.
 
 ### G
 ![G](Images/Letters/G.jpg)
+
 This one has 16 traces, but it didn't fit well in any of the letters with 16 traces of the font, but we thought you may be able to draw a 'G' with 16 traces (intead of 18), and the size of them matches the outline of a 'G'. 
 
 ### A
 ![A](Images/Letters/A(3).jpg)
+
 This one has 12 traces and is similar to the others 'A's.
 
 ### PP
 ![PP](Images/Letters/PP.jpg)
+
 Here we have to letters that are very similar, and have 10 traces, and the size of them matches the 'P'.
 
 ### E
 ![E](Images/Letters/E.jpg)
+
 This one has 12 traces, and their sizes matches the outline of the 'E'.
 
 ### D
 ![D](Images/Letters/D.jpg)
+
 This one has 8 traces, and their sizes mathches the outline of the 'D'.
 
 ### 2
 ![2](Images/Letters/2.jpg)
+
 This one has 18 traces, and their sizes did not match any of the letters, so we compared it to the outline of the numbers, and it matches the '2'. 
 
 ### }
 ![}](Images/Letters/cBracket.jpg)
+
 We assumed tha flag had the format SAF{...}, and this one has the same amount of traces than the one we assumed to be an '{'.
 
 ```
